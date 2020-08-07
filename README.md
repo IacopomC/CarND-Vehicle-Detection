@@ -9,7 +9,16 @@ Dependencies
 ---
 To execute the pipeline, the following dependencies are necessary:
 
-```python
+```
+Numpy
+Matplotlib
+OpenCv
+Scikit-learn
+Scikit-Image
+SciPy
+Glob
+Time
+Itertools
 ```
 
 Installation
