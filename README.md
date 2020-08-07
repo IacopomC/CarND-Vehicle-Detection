@@ -17,9 +17,9 @@ Installation
 Clone the Github Repository and run each cell contained in the Jupiter Notebook `vehicle_detection.ipynb`
 
 ```python
-git clone https://github.com/IacopomC/CarND-Behavioral-Cloning-P3
-cd CarND-Behavioral-Cloning-P3
-jupyter notebook behavioral_cloning.ipynb
+git clone https://github.com/IacopomC/CarND-Vehicle-Detection
+cd CarND-Vehicle-Detection
+jupyter notebook vehicle_detection.ipynb
 ```
 
 Data
