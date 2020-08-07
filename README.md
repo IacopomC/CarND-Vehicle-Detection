@@ -1,16 +1,26 @@
-# Vehicle Detection
+# **Vehicle Detection**
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
+This repository contains my implementation of the homonymous open source [project](https://github.com/udacity/CarND-Vehicle-Detection) part of the [Udacity - Self-Driving Car NanoDegree](http://www.udacity.com/drive).
 
-In this project, your goal is to write a software pipeline to detect vehicles in a video (start with the test_video.mp4 and later implement on full project_video.mp4), but the main output or product we want you to create is a detailed writeup of the project.  Check out the [writeup template](https://github.com/udacity/CarND-Vehicle-Detection/blob/master/writeup_template.md) for this project and use it as a starting point for creating your own writeup.  
+For a step by step walkthrough of the project see [here](https://iacopomc.github.io/projects/2020-08-10-vehicle-detection-project/)
 
-Creating a great writeup:
+Dependencies
 ---
-A great writeup should include the rubric points as well as your description of how you addressed each point.  You should include a detailed description of the code used in each step (with line-number references and code snippets where necessary), and links to other supporting documents or external references.  You should include images in your writeup to demonstrate how your code works with examples.  
+To execute the pipeline, the following dependencies are necessary:
 
-All that said, please be concise!  We're not looking for you to write a book here, just a brief description of how you passed each rubric point, and references to the relevant code :). 
+```python
+```
 
-You can submit your writeup in markdown or use another method and submit a pdf instead.
+Installation
+---
+Clone the Github Repository and run each cell contained in the Jupiter Notebook `vehicle_detection.ipynb`
+
+```python
+git clone https://github.com/IacopomC/CarND-Behavioral-Cloning-P3
+cd CarND-Behavioral-Cloning-P3
+jupyter notebook behavioral_cloning.ipynb
+```
 
 The Project
 ---
@@ -18,7 +28,7 @@ The Project
 The goals / steps of this project are the following:
 
 * Perform a Histogram of Oriented Gradients (HOG) feature extraction on a labeled training set of images and train a classifier Linear SVM classifier
-* Optionally, you can also apply a color transform and append binned color features, as well as histograms of color, to your HOG feature vector. 
+* Optionally, you can also apply a color transform and append binned color features, as well as histograms of color, to your HOG feature vector.
 * Note: for those first two steps don't forget to normalize your features and randomize a selection for training and testing.
 * Implement a sliding-window technique and use your trained classifier to search for vehicles in images.
 * Run your pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
@@ -34,4 +44,3 @@ Some example images for testing your pipeline on single frames are located in th
 
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-
